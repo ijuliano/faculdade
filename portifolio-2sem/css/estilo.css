@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Cookie|Quicksand';
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+    font-size: 100%;
+}
+body {
+    background-color: #FFFBEB;
+    background-image:url(../imagens/bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+    color:floralwhite;
+}
+div#site {
+    width: 620px;
+    margin: 30px auto 30px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);    
+}
+div#titulo {
+    font-family: 'Anton', sans-serif;
+    padding: 10px;
+    background-color: #A57347;
+}
+div#titulo h1, h2{
+    text-align: center;
+    font-size: 60px;
+    color: floralwhite;
+}
+div#titulo h2 {
+    font-size: 30px;
+}
+div#marmita {
+    font-family: 'Anton', sans-serif;
+    background-color: #F9D89D;
+    padding: 10px;
+}
+div#marmita p {
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    color: floralwhite;
+    font-size: 20px;
+}
+div#opcao {
+    width: 250px;
+    height: 345px;
+    border-style: solid;
+    border: 3px solid #000000;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align:center;
+    color: floralwhite;
+    background-color: #8A5136;
+    transition-duration: .6s;
+    border-radius: 15px;
+}
+div#opcao img{
+    border: 2px;
+    border-color: white;
+    border-radius: 100px;
+    margin: 25px 25px 7px 25px;
+    transition-duration: .6s;
+}
+div#opcao h3, h2 {
+    font-size: 23px;
+}
+div#opcao:hover {
+    background-color: #b98b55;
+    
+}
+div#opcao:hover img{
+    border-radius: 50px;
+}
+div#mega {
+    width: 590px;
+    height: 630px;
+    margin: auto;
+    background-color: #A57347;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    font-size: 30px;
+    
+}
+#voltar{
+    transition-duration: .6s;
+}
+#voltar:hover{
+    font-size: 35px;
+    
+}
+div#rodape{
+    width: 620px;
+    height: 100px;
+    padding-top: 15px;
+    background-color: #A57347;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color:#fff;
+}
